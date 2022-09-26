@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon"
+        href="data:image/png;base64,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">
+</head>
+
+
+
+
+<body>
+    <section>
+        <nav class="container">
+            <div class="logo-container">
+                <img class="img1" src="data:image/png;base64,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" alt="immagine">
+            </div>
+
+            <div class="link-container">
+                <a href="https://github.com/Florian-Bool-79/css_layouts/blob/main/index.html"> link </a>
+                <a href=https://github.com/Florian-Bool-79/css_layouts/blob/main/index.html>link</a>
+                <a href="https://github.com/Florian-Bool-79/css_layouts/blob/main/index.html">link</a>
+                <a href="https://github.com/Florian-Bool-79/css_layouts/blob/main/index.html">link</a>
+            </div>
+            <div class="login-container">
+                <a href="https://github.com/Florian-Bool-79/css_layouts/blob/main/index.html"> login </a>
+            </div>
+        </nav>
+    </section>
+    <header>
+      
+        
+
+    
+        
+    </header>
+    <main>
+        <section class="bg-blue">
+            <div class="container container-small "></div>
+        </section>
+        <section>
+            <div class="container ">
+                <div class="row">
+                    <div class="col col-2-1"></div>
+                    <div class="col col-2-2"></div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-grey">
+            <div class="container ">
+                <div class="row">
+                    <div class="col col-2-2"></div>
+                    <div class="col col-2-1"></div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container ">
+                <div class="row">
+                    <div class="col col-2-1"></div>
+                    <div class="col col-2-2"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-grey">
+            <div class="container bg-gr">
+            </div>
+        </section>
+
+        <section class="bg-bl">
+            <div class="container ">
+                <div class="row">
+                    <div class="col-2-2 col-str col"></div>
+                    <div class=" col2-1 col-str col"></div>
+                    <div class=" col2-1 col-str col"></div>
+                    <div class=" col2-1 col-str col"></div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="bg-bl">
+            <footer class="container">
+
+            </footer>
+
+        </section>
+
+    </main>
+</body>
+
+</html>

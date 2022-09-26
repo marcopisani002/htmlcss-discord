@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: url(jumbo.png);
+}
+
+.container {
+    width: 920px;
+    margin: 0 auto;
+  
+}
+
+.img1{
+width: 120px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+nav {
+    background-color: #5b85e5;
+    
+
+}
+
+
+.container-small {
+    width: 800px;
+    height: 300px;
+    background-color: rgb(228, 115, 134);
+}
+
+section {
+    padding: 40px 0;
+
+}
+
+.bg-blue {
+    background-color: #255ee9;
+    background-image: url(jumbo.png);
+}
+
+.bg-grey {
+    background-color: rgb(216, 216, 216);
+}
+
+.row {
+    display: flex;
+    border: 1px solid greenyellow;
+}
+
+.col {
+    flex-grow: 1;
+    padding: 20px;
+    border: 1px solid green;
+}
+
+.col-2-1 {
+    flex-basis: 50%;
+    background-color: cornflowerblue;
+    height: 300px;
+
+}
+
+.col2-1 {
+
+    background-color: cornflowerblue;
+    height: 300px;
+
+}
+
+.col-2-2 {
+
+    background-color: rgb(228, 115, 134);
+    height: 300px;
+}
+
+.bg-gr {
+    background-color: green;
+    height: 300px;
+}
+
+.bg-bl {
+
+    background-color: rgb(68, 68, 68);
+}
+
+.col-str {
+    display: flex;
+    align-items: stretch;
+    height: 300px;
+    flex-grow: 1;
+
+}
+
+footer {
+    background-color: aquamarine;
+    height: 100px;
+}
