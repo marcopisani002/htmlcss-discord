@@ -37,13 +37,22 @@ nav {
 
 .container-small {
     width: 920px;
-    height: 300px;
-
+    height: 600px;
+    text-align: center;
+    color: white;
+    padding: 1rem;
 }
 
 section {
     padding: 40px 0;
 
+}
+.sec1{
+   margin-top: 4rem ;
+   margin-bottom: 1rem;
+   font-weight: 700;
+   
+ 
 }
 
 .link-container ul {
@@ -62,7 +71,25 @@ section {
     padding: 0.5rem;
     font-weight: bolder;
 }
+.hd-button{
+    text-align: center;
+    padding-top: 2rem;
 
+}
+.hd-button .bt-1{
+background-color: white;
+color: black;
+border-style: none;
+border-radius: 10px;
+padding: 0.7rem 1rem;
+}
+.hd-button .bt-2{
+    background-color: black;
+    color: white;
+    border-style: none;
+    border-radius: 10px;
+    padding: 0.7rem 1rem;
+    }
 .bg-grey {
     background-color: rgb(216, 216, 216);
 }
