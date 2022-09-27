@@ -34,12 +34,13 @@ nav {
 
 .bg-patt {
     background-image: url(jumbo.png);
+   background-size: cover;
+
 
 }
 
 .container-small {
     width: 920px;
-    height: 620px;
     text-align: center;
     color: white;
     padding: 1rem;
@@ -51,15 +52,16 @@ section {
 }
 
 .sec1 {
-    margin-top: 10rem;
+    margin-top: 2rem;
     margin-bottom: 1rem;
+    line-height: 1.625;
     font-weight: 700;
 }
 
 .par1 {
     margin-top: 2rem;
     font-size: clamp(16px,2vw,20px);
-    line-height: 1.625
+    line-height: 1.625;
 }
 h2{font-weight: 700;
     line-height: 120%;}
