@@ -33,11 +33,12 @@ nav {
 
 .bg-patt {
     background-image: url(jumbo.png);
+
 }
 
 .container-small {
     width: 920px;
-    height: 600px;
+    height: 620px;
     text-align: center;
     color: white;
     padding: 1rem;
@@ -69,7 +70,7 @@ section {
 
 .login-container button {
     background-color: white;
-    border-radius: 10px;
+    border-radius: 16px;
     color: black;
     border-style: none;
     padding: 0.5rem;
@@ -154,7 +155,34 @@ section {
 }
 
 footer {
-   display: flex;
-   justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
     height: 50px;
+}
+
+.ftr-h1 {
+    color: #7289DA;
+}
+
+.ftr-spec {
+    color: white;
+}
+
+.clr-ftr {
+    color: #4C65D2;
+}
+
+.ita-ftr {
+    height: 15px;
+    margin-top: 1rem;
+}
+
+.ftr-container ul {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    list-style: none;
+    height: 100%;
+
+
 }
