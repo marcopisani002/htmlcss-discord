@@ -47,12 +47,15 @@ section {
     padding: 40px 0;
 
 }
-.sec1{
-   margin-top: 4rem ;
-   margin-bottom: 1rem;
-   font-weight: 700;
-   
- 
+
+.sec1 {
+    margin-top: 10rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.par1 {
+    margin-top: 2rem;
 }
 
 .link-container ul {
@@ -63,7 +66,8 @@ section {
     height: 100%;
 
 }
-.login-container button{
+
+.login-container button {
     background-color: white;
     border-radius: 10px;
     color: black;
@@ -71,68 +75,75 @@ section {
     padding: 0.5rem;
     font-weight: bolder;
 }
-.hd-button{
-    text-align: center;
-    padding-top: 2rem;
 
+.hd-button {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
 }
-.hd-button .bt-1{
-background-color: white;
-color: black;
-border-style: none;
-border-radius: 10px;
-padding: 0.7rem 1rem;
+
+.hd-button .bt-1 {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    color: black;
+    border-style: none;
+    border-radius: 16px;
+    padding: 0.5rem 1rem;
 }
-.hd-button .bt-2{
+
+.hd-button .bt-2 {
+    display: flex;
+    align-items: center;
     background-color: black;
     color: white;
     border-style: none;
-    border-radius: 10px;
-    padding: 0.7rem 1rem;
-    }
+    border-radius: 16px;
+    padding: 0.5rem 1rem;
+}
+
 .bg-grey {
     background-color: rgb(216, 216, 216);
 }
 
 .row {
     display: flex;
-    border: 1px solid greenyellow;
 }
 
 .col {
     flex-grow: 1;
-    padding: 20px;
-    border: 1px solid green;
+    padding: 10px;
 }
 
 .col-2-1 {
-    flex-basis: 50%;
-    background-color: cornflowerblue;
-    height: 300px;
-
+    flex-basis: 40%;
+    height: 400px;
 }
 
 .col2-1 {
-
-    background-color: cornflowerblue;
-    height: 300px;
-
-}
-
-.col-2-2 {
-
-    background-color: rgb(228, 115, 134);
     height: 300px;
 }
 
-.bg-gr {
-    background-color: green;
-    height: 300px;
+.h1-cent {
+    text-align: center;
 }
 
 .bg-bl {
+    background-color: #23272A;
+}
 
-    background-color: rgb(68, 68, 68);
+.bg-star {
+    background-image: url(stars.svg);
+}
+
+.bt-3 {
+    display: flex;
+    align-items: center;
+    background-color: #7289DA;
+    color: white;
+    border-style: none;
+    border-radius: 16px;
+    padding: 0.5rem 1rem;
 }
 
 .col-str {
@@ -140,10 +151,10 @@ padding: 0.7rem 1rem;
     align-items: stretch;
     height: 300px;
     flex-grow: 1;
-
 }
 
 footer {
-    background-color: aquamarine;
-    height: 100px;
+   display: flex;
+   justify-content: space-between;
+    height: 50px;
 }
