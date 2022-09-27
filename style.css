@@ -91,6 +91,7 @@ h2 {
     display: flex;
     justify-content: center;
     padding-top: 2rem;
+    margin: auto;   
 }
 
 .hd-button .bt-1 {
@@ -101,6 +102,7 @@ h2 {
     border-style: none;
     border-radius: 16px;
     padding: 0.5rem 1rem;
+    height: 100%;
 }
 
 .hd-button .bt-2 {
@@ -108,9 +110,11 @@ h2 {
     align-items: center;
     background-color: #23272A;
     color: white;
+    text-align: center;
     border-style: none;
     border-radius: 16px;
     padding: 0.5rem 1rem;
+    height: 100%;
 }
 
 .bg-grey {
@@ -197,14 +201,15 @@ footer {
     flex-grow: 1;
 
 }
-.icons
-{
-   margin-top: 1rem;
+
+.icons {
+    margin-top: 1rem;
 }
-.icons2
-{
-   margin-right: 1rem;
+
+.icons2 {
+    margin-right: 1rem;
 }
+
 .ftr-container ul {
 
     color: white;
